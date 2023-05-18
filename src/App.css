@@ -1,0 +1,22 @@
+
+ .card{
+    font-size: 50px;
+} 
+
+.flashcard-display{
+    width: 70%;
+    height: 300px;
+    border: solid;
+    text-align: center;
+} 
+
+.button {
+    width: 150px; /* Adjust the width as per your preference */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+
+  
