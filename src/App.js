@@ -28,10 +28,6 @@ const App = () => {
     const response = await fetch('http://localhost:8080/flashcards');
     const data = await response.json();
     setData(data);
-    setCurrentIndex(currentIndex = 0)
-    // setFlashcardData(
-    //   data[0].frontside,
-    //   data[0].backside)
   }
 
   useEffect(() => {
@@ -63,7 +59,7 @@ const App = () => {
             </div>
 
 
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center mb-4">
               <Card className="d-flex justify-content-center flashcard-display">
                 {flashcard.frontside}||{flashcard.backside}
               </Card>
@@ -72,7 +68,7 @@ const App = () => {
 
 
             <div className="d-flex">
-              <ButtonGroup className="col-sm text-center mt-5">
+              <ButtonGroup className="col-sm text-center mt-4">
                 <Button className="button" onClick={handlePreviousButton}>Previous</Button>
                 <Button className="button" onClick={handleNextButton}>Next</Button>
               </ButtonGroup>
