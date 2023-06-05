@@ -1,19 +1,22 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import './AppNavbar.CSS'; // Import your custom CSS file
 import logo from './logo.webp';
+import './AppNavbar.css'
+
 const AppNavbar = () => {
   return (
       <Navbar bg="dark" variant="dark" expand="lg" className="navbar">
         <Container className="container-fluid container">
           <Navbar.Brand href="#" className="navbar-brand">
-            {/*<div className="logo"> <img src={logo} alt="Logo" /> </div>*/}
+            <img src={logo} alt="logo" className='logo' />
+
+
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home" className="nav-link">Home</Nav.Link>
+              <Nav.Link href="/Flashcards" className="nav-link">Home</Nav.Link>
               <Nav.Link href="#flashcards" className="nav-link">Flashcards</Nav.Link>
-              <Nav.Link href="#about" className="nav-link">About</Nav.Link>
+              <Nav.Link href="#about" className="nav-link">Manage</Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link href="#login" className="nav-link">Login</Nav.Link>

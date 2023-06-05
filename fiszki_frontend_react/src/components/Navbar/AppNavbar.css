@@ -1,0 +1,11 @@
+.nav-link{
+    border: solid;
+    border: 30px;
+    border-color : red;
+}
+
+.logo{
+    height: 40px;
+    marginRight: 10px;
+
+}
