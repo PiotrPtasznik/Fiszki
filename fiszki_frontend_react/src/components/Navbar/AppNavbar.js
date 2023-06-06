@@ -1,5 +1,5 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import logo from './logo.webp';
+import logo from './logoIcon.webp';
 import './AppNavbar.css'
 
 const AppNavbar = () => {
