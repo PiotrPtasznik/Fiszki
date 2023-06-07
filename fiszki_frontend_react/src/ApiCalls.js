@@ -9,4 +9,32 @@ export const fetchFlashcardsData = async () => {
     }
 }
 
+export const fetchFlashcardsDelete = async (id) => {
+    try {
+        const response = await fetch(`http://localhost:8080/flashcards/${id}`, { method: 'DELETE' })
+
+        if (response.ok) {
+            console.log('Flashcard deleted successfully');
+        } else {
+            console.error('Failed to delete flashcard');
+        }
+    } catch (error) {
+        console.error('Error deleting flashcard:', error);
+    }
+}
+
+// export const fetchFlashcardsAdd = async (id) => {
+//
+// }
+
+
+
+
+
+
+
+
+
+
+
 

@@ -2,14 +2,13 @@
     max-width: 1000px;
 }
 
-
 .card {
-    border-radius: 30px;
-    box-shadow: 1px 1px 10px 1px #E8E8E8;
     margin: 40px auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: inherit;
+    border: none;
 }
 
 .button {
@@ -22,8 +21,8 @@
 }
 
 .flip-card {
-    width: 50%;
-    height: 300px;
+    width: 90%;
+    height: 400px;
     margin: 20px auto;
 
 }
@@ -52,12 +51,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-
-.flip-card-front {
     background-color: white;
-    color: black;
+
 
 }
 

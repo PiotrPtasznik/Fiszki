@@ -7,11 +7,11 @@ import './Global.css'
 const App = () => {
     return (
         <AppNavbar>
-            <div className="container body">
-        <Routes>
-                <Route exact path="/FlashcardCarousel" component={<FlashcardsCarousel/>} />
-        </Routes>
-            </div>
+        {/*    <div className="container body">*/}
+        {/*<Routes>*/}
+        {/*        <Route exact path="/FlashcardCarousel" component={<FlashcardsCarousel/>} />*/}
+        {/*</Routes>*/}
+        {/*    </div>*/}
         </AppNavbar>
     );
 };

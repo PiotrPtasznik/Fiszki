@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Button, Card } from 'react-bootstrap';
+import {Button, Card} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './FlashcardsCarousel.css'
 import {fetchFlashcardsData} from "../../ApiCalls";
@@ -23,8 +23,16 @@ const FlashcardsCarousel = () => {
   useEffect(() => {
     fetchFlashcardsData().then(value => {
       setData(value);
-      setFlashcard(value[0]);
-    })
+      if (value.length > 0) {
+        displayFlashcard(value[0].frontside, value[0].backside);
+      }
+      else {
+        setFlashcard({
+          frontside: "No flashcards available",
+          backside: "Empty"
+        });
+      }
+    });
   }, []);
 
   const handleNextButton = () => {
@@ -32,7 +40,7 @@ const FlashcardsCarousel = () => {
       setCurrentIndex(currentIndex + 1);
       displayFlashcard(data[currentIndex + 1].frontside, data[currentIndex + 1].backside);
     }
-    else {console.log('ni ma wincyj')
+    else {console.log('No more flashcards')
   }
   };
 
@@ -41,7 +49,7 @@ const FlashcardsCarousel = () => {
       setCurrentIndex(currentIndex - 1);
       displayFlashcard(data[currentIndex - 1].frontside, data[currentIndex - 1].backside);
     } else {
-      console.log('ni ma mniej')
+      console.log('No previous flashcards')
     }
   };
 

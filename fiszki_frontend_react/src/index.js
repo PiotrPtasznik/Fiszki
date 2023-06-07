@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
      <BrowserRouter>
          <App/>
-         {/*<FlashcardsCarousel/>*/}
+         <FlashcardsCarousel/>
          <ManageFlashcards/>
          <Footer/>
      </BrowserRouter>

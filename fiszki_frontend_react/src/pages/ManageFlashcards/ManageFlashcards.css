@@ -7,23 +7,32 @@
     margin-top: 30px;
 }
 
-.rounded-table {
+.table {
     border-color: black;
 }
-.table-wrapper .rounded-table th, .rounded-table td {
-    border: 1px solid #dee2e6;
-    padding: 8px;
 
+.table-wrapper .table th, .table td{
+    border: 1px solid #dee2e6;
+    padding: 5px;
 }
 
 .editIcon{
-    height: 30px;
+    height: 25px;
 }
+
 .binIcon{
-    height: 30px;
+    height: 25px;
 }
 
 .add-button{
     width: 100%;
     height: 100%;
+}
+
+.yellow-hover:hover{
+    background-color: #f6ff00;
+}
+
+.blue-hover:hover{
+    background-color: #005fff;
 }
