@@ -57,7 +57,19 @@ public class FlashcardController {
         return ResponseEntity.noContent().build();
     }
 
-
+    //new 8.06
+    @PutMapping("/{id}")
+    ResponseEntity<FlashcardResponseDto> updateFlashcard(@PathVariable String id, @RequestBody FlashcardRequestDto requestDto) {
+        Flashcard flashcard = flashcardService.updateFlashcard(
+                new FlashcardId(id),
+                requestDto.frontside(),
+                requestDto.backside());
+        if (flashcard != null) {
+            return ResponseEntity.ok(FlashcardResponseDto.fromDomain(flashcard));
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
 
     static final String flashcard_baseURL = "/flashcards";
 }

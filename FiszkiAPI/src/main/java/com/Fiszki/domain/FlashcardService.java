@@ -33,6 +33,19 @@ public class FlashcardService {
     public Flashcard addNewFlashcard(String frontside, String backside) {
         return flashcardRepository.save(new Flashcard(flashcardIdSupplier.get(), frontside, backside));
     }
+
+    // new 8.06
+    public Flashcard updateFlashcard(FlashcardId id, String updatedFrontside, String updatedBackside) {
+        Optional<Flashcard> flashcardOptional = flashcardRepository.findById(id);
+        if (flashcardOptional.isPresent()) {
+            Flashcard flashcard = flashcardOptional.get();
+            flashcard.updateFrontside(updatedFrontside);
+            flashcard.updateBackside(updatedBackside);
+            return flashcardRepository.save(flashcard);
+        }
+        return null; // Return null if the flashcard with the given ID is not found
+    }
+
 }
 
 

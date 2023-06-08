@@ -1,6 +1,6 @@
 import { Button, Form } from "react-bootstrap";
 import { useEffect, useState } from "react";
-import {fetchFlashcardsData, fetchFlashcardsDelete} from "../../ApiCalls";
+import {fetchFlashcardsData, fetchFlashcardsDelete, fetchFlashcardsAdd, fetchFlashcardsUpdate} from "../../ApiCalls";
 import './ManageFlashcards.css'
 import editIcon from './editIcon.webp'
 import binIcon from './binIcon.webp'
@@ -9,6 +9,9 @@ const ManageFlashcards = () => {
     const [data, setData] = useState([]);
     const [frontside, setFrontside] = useState('');
     const [backside, setBackside] = useState('');
+    const [editIndex, setEditIndex] = useState(-1);
+    const [editMode, setEditMode] = useState(false);
+
 
     useEffect(() => {
         fetchFlashcardsData().then(value => {
@@ -30,17 +33,9 @@ const ManageFlashcards = () => {
             backside
         };
 
-        fetch('http://localhost:8080/flashcards', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(newFlashcard)
-        })
-            .then(response => response.json())
-            .then(value => {
-                setData([...data, value])
-                console.log('Flashcard added:', data);
+        fetchFlashcardsAdd(newFlashcard)
+            .then((addedFlashcard) => {
+                setData([...data, addedFlashcard]);
                 setFrontside('');
                 setBackside('');
             })
@@ -58,6 +53,39 @@ const ManageFlashcards = () => {
 
     };
 
+    const handleEditFrontsideChange = (event, index) => {
+        const updatedData = [...data];
+        updatedData[index].frontside = event.target.value;
+        setData(updatedData);
+    };
+
+    const handleEditBacksideChange = (event, index) => {
+        const updatedData = [...data];
+        updatedData[index].backside = event.target.value;
+        setData(updatedData);
+    };
+
+    const toggleEditMode = (index) => {
+        if (editMode && editIndex === index) {
+            // Save the edited flashcard
+            setEditIndex(-1);
+            setEditMode(false);
+            // Send the updated flashcard to the server
+            const editedFlashcard = data[index];
+            fetchFlashcardsUpdate(editedFlashcard.flashcardId, editedFlashcard)
+                .then(() => {
+                    console.log('Flashcard updated successfully');
+                })
+                .catch((error) => {
+                    console.error('Error updating flashcard:', error);
+                });
+        } else {
+            setEditIndex(index);
+            setEditMode(true);
+        }
+    };
+
+
 
     return (
         <div className='table-wrapper'>
@@ -72,15 +100,40 @@ const ManageFlashcards = () => {
                 </thead>
 
                 <tbody>
-                {data && data.map((item, index) => (
-                    <tr key={index}>
-                        <td>{index + 1}</td>
-                        <td>{item.frontside}</td>
-                        <td>{item.backside}</td>
-                        <td className='d-flex align-items-center'>
-                            <Button variant="outline-*" className="mx-auto blue-hover link">
-                                <img className='editIcon' src={editIcon} alt="Edit Icon" />
-                            </Button>
+                {data &&
+                    data.map((item, index) => (
+                        <tr key={index}>
+                            <td>{index + 1}</td>
+                            <td>
+                                {editIndex === index ? (
+                                    <Form.Control
+                                        type="text"
+                                        value={item.frontside}
+                                        onChange={(event) => handleEditFrontsideChange(event, index)}
+                                    />
+                                ) : (
+                                    item.frontside
+                                )}
+                            </td>
+                            <td>
+                                {editIndex === index ? (
+                                    <Form.Control
+                                        type="text"
+                                        value={item.backside}
+                                        onChange={(event) => handleEditBacksideChange(event, index)}
+                                    />
+                                ) : (
+                                    item.backside
+                                )}
+                            </td>
+                            <td className="d-flex align-items-center">
+                                <Button
+                                    variant="outline-*"
+                                    className="mx-auto blue-hover link"
+                                    onClick={() => toggleEditMode(index)}
+                                >
+                                    <img className="editIcon" src={editIcon} alt="Edit Icon" />
+                                </Button>
                             <Button variant="outline-*"  className="mx-auto yellow-hover link" onClick={() => handleDeleteFlashcard(item.flashcardId)}>
                                 <img className='binIcon' src={binIcon} alt="Bin Icon" />
                             </Button>
