@@ -1,0 +1,38 @@
+.table-wrapper{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.table {
+    border-color: black;
+}
+
+.table-wrapper .table th, .table td{
+    border: 1px solid #dee2e6;
+    padding: 5px;
+}
+
+.editIcon{
+    height: 25px;
+}
+
+.binIcon{
+    height: 25px;
+}
+
+.add-button{
+    width: 100%;
+    height: 100%;
+}
+
+.yellow-hover:hover{
+    background-color: #f6ff00;
+}
+
+.blue-hover:hover{
+    background-color: #005fff;
+}
