@@ -4,6 +4,7 @@ import {fetchFlashcardsData, fetchFlashcardsDelete, fetchFlashcardsAdd, fetchFla
 import './ManageFlashcards.css'
 import editIcon from './editIcon.webp'
 import binIcon from './binIcon.webp'
+import saveIcon from './saveIcon.webp'
 
 const ManageFlashcards = () => {
     const [data, setData] = useState([]);
@@ -28,6 +29,11 @@ const ManageFlashcards = () => {
     };
 
     const handleAddFlashcard = () => {
+        if (!frontside || !backside) {
+            alert('Please enter both frontside and backside of the flashcard.');
+            return;
+        }
+
         const newFlashcard = {
             frontside,
             backside
@@ -132,9 +138,13 @@ const ManageFlashcards = () => {
                                     className="mx-auto blue-hover link"
                                     onClick={() => toggleEditMode(index)}
                                 >
-                                    <img className="editIcon" src={editIcon} alt="Edit Icon" />
+                                    {editMode && editIndex === index ? (
+                                        <img className="editIcon" src={saveIcon} alt="Save Icon" />
+                                    ) : (
+                                        <img className="editIcon" src={editIcon} alt="Edit Icon" />
+                                    )}
                                 </Button>
-                            <Button variant="outline-*"  className="mx-auto yellow-hover link" onClick={() => handleDeleteFlashcard(item.flashcardId)}>
+                            <Button variant="outline-*" className="mx-auto red-hover link" onClick={() => handleDeleteFlashcard(item.flashcardId)}>
                                 <img className='binIcon' src={binIcon} alt="Bin Icon" />
                             </Button>
                         </td>

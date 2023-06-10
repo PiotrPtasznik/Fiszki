@@ -29,8 +29,8 @@
     height: 100%;
 }
 
-.yellow-hover:hover{
-    background-color: #f6ff00;
+.red-hover:hover{
+    background-color: #ff310c;
 }
 
 .blue-hover:hover{
