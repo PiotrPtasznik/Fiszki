@@ -53,11 +53,16 @@ const FlashcardsCarousel = () => {
     }
   };
 
+  const handleCardClick = () => {
+    const flipCardInnerElement = document.querySelector('.flip-card-inner');
+    flipCardInnerElement.classList.toggle('flipped');
+  };
+
   return (
         <div className="container-fluid site">
           <Card>
-            <div className="d-flex justify-content-center flip-card">
-              <div className="flip-card-inner">
+            <div className="d-flex justify-content-center flip-card" onClick={handleCardClick}>
+              <div className={`flip-card-inner ${currentIndex !== 0 ? 'flipped' : ''}`}>
                 <div className="flip-card-front">
                   {flashcard.frontside}
                 </div>
