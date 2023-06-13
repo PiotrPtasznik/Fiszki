@@ -11,7 +11,7 @@ const FlashcardsCarousel = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const displayFlashcard = (frontsideData, backsideData) => {
-    setIsFlipped(false); // Always reset to frontside when displaying a new flashcard
+    setIsFlipped(false);
     setFlashcard({
       frontside: frontsideData,
       backside: backsideData

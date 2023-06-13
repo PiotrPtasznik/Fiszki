@@ -55,6 +55,8 @@
     align-items: center;
     justify-content: center;
     background-color: white;
+    font-size: 30px;
+
 }
 
 .flip-card-back {
