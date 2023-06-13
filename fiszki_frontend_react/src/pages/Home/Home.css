@@ -7,12 +7,17 @@ h1 {
     font-size: 32px;
     color: #333;
     margin-bottom: 20px;
+    overflow-wrap: break-word;
 }
 
 p {
     font-size: 18px;
     color: #666;
-    margin-bottom: 40px;
+    overflow-wrap: break-word;
+}
+
+.stick-left{
+    float:left
 }
 
 .get-started-button {

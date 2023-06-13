@@ -5,6 +5,7 @@
     overflow: hidden;
     height: 100%;
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .table {
@@ -36,3 +37,4 @@
 .blue-hover:hover{
     background-color: #005fff;
 }
+
