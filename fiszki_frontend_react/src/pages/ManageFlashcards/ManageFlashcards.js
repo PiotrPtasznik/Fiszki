@@ -1,5 +1,5 @@
-import { Button, Form } from "react-bootstrap";
-import { useEffect, useState } from "react";
+import {Button, Form} from "react-bootstrap";
+import {useEffect, useState} from "react";
 import {fetchFlashcardsData, fetchFlashcardsDelete, fetchFlashcardsAdd, fetchFlashcardsUpdate} from "../../ApiCalls";
 import './ManageFlashcards.css'
 import editIcon from './editIcon.webp'
@@ -52,11 +52,10 @@ const ManageFlashcards = () => {
     };
 
     const handleDeleteFlashcard = (id) => {
-        fetchFlashcardsDelete(id).then(()=>
+        fetchFlashcardsDelete(id).then(() =>
             fetchFlashcardsData().then(value => {
-            setData(value);
-        }));
-
+                setData(value);
+            }));
     };
 
     const handleEditFrontsideChange = (event, index) => {
@@ -92,7 +91,6 @@ const ManageFlashcards = () => {
     };
 
 
-
     return (
         <div className='table-wrapper'>
             <table className="container-fluid site table">
@@ -104,7 +102,6 @@ const ManageFlashcards = () => {
                     <th>Manage</th>
                 </tr>
                 </thead>
-
                 <tbody>
                 {data &&
                     data.map((item, index) => (
@@ -133,30 +130,31 @@ const ManageFlashcards = () => {
                                 )}
                             </td>
                             <td className="d-flex align-items-center">
-                                <Button
-                                    variant="outline-*"
-                                    className="mx-auto blue-hover link"
-                                    onClick={() => toggleEditMode(index)}
+                                <Button variant="outline-*" className="mx-auto blue-hover link"
+                                        onClick={() => toggleEditMode(index)}
                                 >
                                     {editMode && editIndex === index ? (
-                                        <img className="editIcon" src={saveIcon} alt="Save Icon" />
+                                        <img className="editIcon" src={saveIcon} alt="Save Icon"/>
                                     ) : (
-                                        <img className="editIcon" src={editIcon} alt="Edit Icon" />
+                                        <img className="editIcon" src={editIcon} alt="Edit Icon"/>
                                     )}
                                 </Button>
-                            <Button variant="outline-*" className="mx-auto red-hover link" onClick={() => handleDeleteFlashcard(item.flashcardId)}>
-                                <img className='binIcon' src={binIcon} alt="Bin Icon" />
-                            </Button>
-                        </td>
-                    </tr>
-                ))}
+                                <Button variant="outline-*" className="mx-auto red-hover link"
+                                        onClick={() => handleDeleteFlashcard(item.flashcardId)}>
+                                    <img className='binIcon' src={binIcon} alt="Bin Icon"/>
+                                </Button>
+                            </td>
+                        </tr>
+                    ))}
                 <tr>
                     <td>{data.length + 1}</td>
                     <td>
-                        <Form.Control type="text" value={frontside} onChange={handleFrontsideChange} placeholder="Frontside" />
+                        <Form.Control type="text" value={frontside} onChange={handleFrontsideChange}
+                                      placeholder="Frontside"/>
                     </td>
                     <td>
-                        <Form.Control type="text" value={backside} onChange={handleBacksideChange} placeholder="Backside" />
+                        <Form.Control type="text" value={backside} onChange={handleBacksideChange}
+                                      placeholder="Backside"/>
                     </td>
                     <td>
                         <Button className='add-button' onClick={handleAddFlashcard}>Add Flashcard</Button>
