@@ -1,5 +1,3 @@
-# Fiszki
-Flashcards application
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
@@ -27,21 +25,7 @@ Flashcards application
   <a href="https://github.com/PiotrPtasznik/Fiszki">
     <img src="https://github.com/PiotrPtasznik/Fiszki/blob/fdb8443bc771781879cd11db3859cadef3876ca0/fiszki_frontend_react/src/components/Navbar/logoIcon.webp" alt="Logo" width="400" height="160">
   </a>
-
-<h3 align="center">FlashcardApp</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/PiotrPtasznik/Fiszki"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/PiotrPtasznik/Fiszki">View Demo</a>
-    ·
-    <a href="https://github.com/PiotrPtasznik/Fiszkiissues">Report Bug</a>
-    ·
-    <a href="https://github.com/PiotrPtasznik/Fiszki/issues">Request Feature</a>
-  </p>
+  
 </div>
 
 
