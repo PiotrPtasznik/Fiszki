@@ -120,15 +120,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-#### Jakub Grzanka
-[![LinkedIn][linkedin-shield]][linkedin-url-jg]
-[![email][gmail-shield]][gmail-url-jg]
-[![github][github-shield]][github-url-jg]
+#### Piotr Ptasznik
+[![LinkedIn][linkedin-shield]][linkedin-url-pp]
+[![email][gmail-shield]][gmail-url-pp]
+[![github][github-shield]][github-url-pp]
 
-#### Szymon Kęcik
-[![LinkedIn][linkedin-shield]][linkedin-url-sk]
-[![email][gmail-shield]][gmail-url-sk]
-[![github][github-shield]][github-url-sk]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,24 +140,21 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Heistrack/Fluere.svg?style=for-the-badge
-[contributors-url]: https://github.com/Heistrack/Fluere/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Heistrack/Fluere.svg?style=for-the-badge
-[forks-url]: https://github.com/Heistrack/Fluere/network/members
-[stars-shield]: https://img.shields.io/github/stars/Heistrack/Fluere.svg?style=for-the-badge
-[stars-url]: https://github.com/Heistrack/Fluere/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Heistrack/Fluere.svg?style=for-the-badge
-[issues-url]: https://github.com/Heistrack/Fluere/issues
+[contributors-url]: https://github.com/PiotrPtasznik/Fiszki/graphs/contributors
+[forks-shield]: https://github.com/PiotrPtasznik/Fiszki.svg?style=for-the-badge
+[forks-url]: https://github.com/PiotrPtasznik/Fiszkinetwork/members
+[stars-shield]: https://github.com/PiotrPtasznik/Fiszki.svg?style=for-the-badge
+[stars-url]: https://github.com/PiotrPtasznik/Fiszki/stargazers
+[issues-shield]: https://github.com/PiotrPtasznik/Fiszki.svg?style=for-the-badge
+[issues-url]: https://github.com/PiotrPtasznik/Fiszki/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/Heistrack/Fluere/blob/master/LICENSE.txt
+[license-url]: https://github.com/PiotrPtasznik/Fiszki/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url-jg]: https://linkedin.com/in/jakubgrzanka
-[linkedin-url-sk]: https://linkedin.com/in/szymon-kecik
+[linkedin-url-pp]: www.linkedin.com/in/piotr-ptasznik
 [gmail-shield]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
-[gmail-url-jg]: mailto:jgrzanka@sep.gda.pl
-[gmail-url-sk]: mailto:ximonq@gmail.com
+[gmail-url-pp]: mailto:piotr.ptasznik111@gmail.com
 [github-shield]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-[github-url-sk]: https://github.com/ximq33
-[github-url-jg]: https://github.com/Heistrack
+[github-url-pp]: https://github.com/PiotrPtasznik
 [postman-shield]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white  
 [postman-url]:  https://www.postman.com/grey-escape-417892/workspace/fluere/collection/26441753-0b973e4a-1882-457d-9497-5dab2a271168?action=share&creator=26441753
 [product-screenshot]: images/screenshot.png
