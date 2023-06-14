@@ -25,7 +25,7 @@ Flashcards application
 <br />
 <div align="center">
   <a href="https://github.com/PiotrPtasznik/Fiszki">
-    <img src="images/FLUERE.png" alt="Logo" width="400" height="400">
+    <img src="https://github.com/PiotrPtasznik/Fiszki/blob/fdb8443bc771781879cd11db3859cadef3876ca0/fiszki_frontend_react/src/components/Navbar/logoIcon.webp" alt="Logo" width="400" height="160">
   </a>
 
 <h3 align="center">FlashcardApp</h3>
