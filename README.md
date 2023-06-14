@@ -33,23 +33,23 @@ Flashcards application
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Heistrack/Fluere">
+  <a href="https://github.com/PiotrPtasznik/Fiszki">
     <img src="images/FLUERE.png" alt="Logo" width="400" height="400">
   </a>
 
-<h3 align="center">Fluere</h3>
+<h3 align="center">FlashcardApp</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/Heistrack/Fluere"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/PiotrPtasznik/Fiszki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Heistrack/Fluere">View Demo</a>
+    <a href="https://github.com/PiotrPtasznik/Fiszki">View Demo</a>
     ·
-    <a href="https://github.com/Heistrack/Fluere/issues">Report Bug</a>
+    <a href="https://github.com/PiotrPtasznik/Fiszkiissues">Report Bug</a>
     ·
-    <a href="https://github.com/Heistrack/Fluere/issues">Request Feature</a>
+    <a href="https://github.com/PiotrPtasznik/Fiszki/issues">Request Feature</a>
   </p>
 </div>
 
@@ -87,11 +87,11 @@ Flashcards application
 ## About The Project
 
 &ensp;&ensp;
-Fluere helps to record each expense and assaign it to the budget. Each user has opportunity to independently determine the budget conditions,
-which include maximum one-off expense and total maximum value to spend. The app sends messages of the percentage of budget fill.
+/todo/
 
 
-&ensp;&ensp;Greater control over cash flow and realisation of expenses importance rises user awerness, resulting in cost savings.
+&ensp;&ensp;
+/todo/
 
 
 
@@ -102,7 +102,6 @@ which include maximum one-off expense and total maximum value to spend. The app 
 * [![Maven][Maven.js]][Maven-url]
 * [![Spring][Spring.js]][Spring-url]
 * [![Mongo][Mongo.js]][Mongo-url]
-* [![Swagger][Swagger.js]][Swagger-url]
 
 
 ### Installation
@@ -165,8 +164,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [postman-shield]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white  
 [postman-url]:  https://www.postman.com/grey-escape-417892/workspace/fluere/collection/26441753-0b973e4a-1882-457d-9497-5dab2a271168?action=share&creator=26441753
 [product-screenshot]: images/screenshot.png
-[Swagger.js]: https://img.shields.io/badge/swagger-%2385EA2D.svg?&style=for-the-badge&logo=swagger&logoColor=black
-[Swagger-url]: https://validator.swagger.io/
 [Maven.js]: https://img.shields.io/badge/Maven-ECE7ED?style=for-the-badge&logo=apachemaven&logoColor=CB2136
 [Maven-url]: https://maven.apache.org/
 [Spring.js]: https://img.shields.io/badge/Spring-6db33f?style=for-the-badge&logo=springboot&logoColor=white 
