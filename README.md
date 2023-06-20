@@ -62,11 +62,7 @@
 ## About The Project
 
 &ensp;&ensp;
-/todo/
-
-
-&ensp;&ensp;
-/todo/
+/in progress/
 
 
 
@@ -74,9 +70,11 @@
 ### Built With
 
 * <a href="https://www.java.com"> <img src="images/JAVA-CA3132.svg" alt="Logo" width="77" height="28">
-* [![Maven][Maven.js]][Maven-url]
-* [![Spring][Spring.js]][Spring-url]
-* [![Mongo][Mongo.js]][Mongo-url]
+* [![Maven][Maven]][Maven-url]
+* [![Spring][Spring]][Spring-url]
+* [![Mongo][Mongo]][Mongo-url]
+* [![React][React.js]][React-url]
+
 
 
 ### Installation
@@ -114,7 +112,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Heistrack/Fluere.svg?style=for-the-badge
 [contributors-url]: https://github.com/PiotrPtasznik/Fiszki/graphs/contributors
 [forks-shield]: https://github.com/PiotrPtasznik/Fiszki.svg?style=for-the-badge
 [forks-url]: https://github.com/PiotrPtasznik/Fiszkinetwork/members
@@ -133,9 +130,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [postman-shield]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white  
 [postman-url]:  https://www.postman.com/grey-escape-417892/workspace/fluere/collection/26441753-0b973e4a-1882-457d-9497-5dab2a271168?action=share&creator=26441753
 [product-screenshot]: images/screenshot.png
-[Maven.js]: https://img.shields.io/badge/Maven-ECE7ED?style=for-the-badge&logo=apachemaven&logoColor=CB2136
+[Maven]: https://img.shields.io/badge/Maven-ECE7ED?style=for-the-badge&logo=apachemaven&logoColor=CB2136
 [Maven-url]: https://maven.apache.org/
-[Spring.js]: https://img.shields.io/badge/Spring-6db33f?style=for-the-badge&logo=springboot&logoColor=white 
+[Spring]: https://img.shields.io/badge/Spring-6db33f?style=for-the-badge&logo=springboot&logoColor=white 
 [Spring-url]: https://spring.io/
-[Mongo.js]: https://img.shields.io/badge/MongoDB-00684a?style=for-the-badge&logo=mongodb&logoColor=00ed64
+[Mongo]: https://img.shields.io/badge/MongoDB-00684a?style=for-the-badge&logo=mongodb&logoColor=00ed64
+
+[React.js]: https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge
+[React-url]: https://pl.legacy.reactjs.org/
+
+
 [Mongo-url]: https://www.mongodb.com/
