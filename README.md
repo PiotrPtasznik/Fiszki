@@ -69,7 +69,7 @@
 
 ### Built With
 
-* <a href="https://www.java.com"> <img src="images/JAVA-CA3132.svg" alt="Logo" width="77" height="28">
+* [![Java][Java]][Java-url]
 * [![Maven][Maven]][Maven-url]
 * [![Spring][Spring]][Spring-url]
 * [![Mongo][Mongo]][Mongo-url]
@@ -138,6 +138,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 [React.js]: https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge
 [React-url]: https://pl.legacy.reactjs.org/
-
+[Java]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
+[Java-url]: https://www.java.com/pl/
 
 [Mongo-url]: https://www.mongodb.com/
