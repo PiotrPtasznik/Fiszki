@@ -45,6 +45,13 @@ The Flashcard App is a web application that allows users to create, manage, and 
 
 
 ### Installation
+1.Download the project
+2.Run 'npm install'
+3.Load Maven
+4.Run/install docker if not installed
+5.Run docker-compose.yml file in FiszkiAPI module 
+6.In terminal ccdhange directory to fiszki_frontend_react('cd fiszki_frontend_react') and then type 'npm start' 
+7. npm rect-router-dom
 
 
 <!-- USAGE EXAMPLES -->
