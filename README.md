@@ -54,13 +54,11 @@ Backend:
 <li>Run FlashcardApplication in 'FiszkiAPI\src\main\java\com\Fiszki' </li>
 </ol>
  Frontend:
-<p>In terminal run 'cd fiszki_frontend_react, then run those commands:</p>
- 
- <ol>
+
+<ol>
+<li>In terminal run 'cd fiszki_frontend_react, then run those commands:</li>
 <li>'npm install'</li>
 <li>'npm start'</li>
-
-<li>If there is nothing or errors displaying in browser after npm start, go to fiszki_frontend_react/src/routes/index.js go to line 22, press alt+enter and click on 'Change JavaScript language version to flow' then restart 'FlashcardApplication'</li>
 </ol>
 
 
