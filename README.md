@@ -92,7 +92,7 @@ In terminal run those commands:
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/PiotrPtasznik/Fiszki/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url-pp]: www.linkedin.com/in/piotr-ptasznik
+[linkedin-url-pp]: https://www.linkedin.com/in/piotr-ptasznik
 [gmail-shield]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
 [gmail-url-pp]: mailto:piotr.ptasznik111@gmail.com
 [github-shield]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
