@@ -57,7 +57,8 @@ Backend:
 </ol>
  Frontend:
 <ol>
-<li>In terminal run 'cd fiszki_frontend_react, then run those commands:</li>
+In terminal run those commands:
+<li>'cd fiszki_frontend_react'</li>
 <li>'npm install'</li>
 <li>'npm start'</li>
 </ol>
