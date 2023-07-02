@@ -29,7 +29,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The Flashcard App is a web application that allows users to create, manage, and study flashcards. It provides an intuitive interface for creating flashcards with questions and answers
+The Flashcard App is a web application that allows users to create, manage, and study. It provides an intuitive interface for creating and managing flashcards
 
 
 
