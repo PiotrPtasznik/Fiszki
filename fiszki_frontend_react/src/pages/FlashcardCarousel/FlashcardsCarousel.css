@@ -26,6 +26,10 @@
     margin: 20px auto;
 }
 
+.flip-card-inner:hover {
+    box-shadow: 1px 1px 3px 5px #C0C0C0	;
+}
+
 .flip-card-inner {
     width: 100%;
     height: 100%;
