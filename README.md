@@ -45,16 +45,17 @@ The Flashcard App is a web application that allows users to create, manage, and 
 
 
 ### Installation
+To run this project you need to have installed : Docker, Maven, Spring 3.0.6 , Java 19
+
 Backend: 
 <ol>
 <li>Download the project</li>
 <li>Load Maven</li>
-<li>Run/install(if not present) Docker</li>
+<li>Run Docker</li>
 <li>Run run 'services' in 'docker-compose.yml' file in FiszkiAPI module </li>
 <li>Run FlashcardApplication in 'FiszkiAPI\src\main\java\com\Fiszki' </li>
 </ol>
  Frontend:
-
 <ol>
 <li>In terminal run 'cd fiszki_frontend_react, then run those commands:</li>
 <li>'npm install'</li>
