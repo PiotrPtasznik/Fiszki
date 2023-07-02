@@ -55,7 +55,8 @@ Backend:
 <li>Run run 'services' in 'docker-compose.yml' file in FiszkiAPI module </li>
 <li>Run FlashcardApplication in 'FiszkiAPI\src\main\java\com\Fiszki' </li>
 </ol>
- Frontend:
+
+Frontend:
 <ol>
 In terminal run those commands:
 <li>'cd fiszki_frontend_react'</li>
