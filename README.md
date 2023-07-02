@@ -70,6 +70,14 @@ In terminal run those commands:
   
 [![postman][postman-shield]][postman-url]  -  Ready-made requests for Postman to try out the API itself
 
+## In progress
+<li>Authorization and authentication with JWT and OAuth 2.0 Resource Server </li>
+<li>Multiple decks to organize flashcards </li>
+<li>Diffrent play modes </li>
+<li>Tracking  user's progress and performance</li>
+<li>Import/Export Decks: Users can import and export decks in a compatible format, allowing for easy sharing and backup of flashcard data</li>
+<li>Responsive Design: The application is designed to work seamlessly on various devices, including desktops, tablets, and mobile phones.</li>
+
 <!-- CONTACT -->
 ## Contact
 #### Piotr Ptasznik
