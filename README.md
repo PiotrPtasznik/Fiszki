@@ -1,6 +1,5 @@
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -28,63 +27,30 @@
   
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-&ensp;&ensp;
-/in progress/
+The Flashcard App is a web application that allows users to create, manage, and study flashcards. It provides an intuitive interface for creating flashcards with questions and answers
 
 
 
 
 ### Built With
 
-* [![Java][Java]][Java-url]
-* [![Maven][Maven]][Maven-url]
-* [![Spring][Spring]][Spring-url]
-* [![Mongo][Mongo]][Mongo-url]
-* [![React][React.js]][React-url]
+[![Java][Java]][Java-url]
+[![Maven][Maven]][Maven-url]
+[![Spring][Spring]][Spring-url]
+[![Mongo][Mongo]][Mongo-url]
+[![React][React.js]][React-url]
 
 
 
 ### Installation
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
   
-* [![postman][postman-shield]][postman-url]  -  Ready-made requests for Postman to try out the API itself
+[![postman][postman-shield]][postman-url]  -  Ready-made requests for Postman to try out the API itself
 
 <!-- LICENSE -->
 ## License
@@ -99,15 +65,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [![github][github-shield]][github-url-pp]
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
