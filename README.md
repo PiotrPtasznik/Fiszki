@@ -45,18 +45,23 @@ The Flashcard App is a web application that allows users to create, manage, and 
 
 
 ### Installation
+Backend: 
 <ol>
-Backend  
 <li>Download the project</li>
 <li>Load Maven</li>
 <li>Run/install(if not present) Docker</li>
 <li>Run run 'services' in 'docker-compose.yml' file in FiszkiAPI module </li>
 <li>Run FlashcardApplication in 'FiszkiAPI\src\main\java\com\Fiszki' </li>
-Frontend
-<li>In terminal run 'npm install'</li>
-<li>In terminal 'npm install --save-dev @svgr/webpack'</li>
-<li>In terminal  npm install react-router-dom</li>
-<li>In terminal change directory to fiszki_frontend_react('cd fiszki_frontend_react') and then type 'npm start' </li>
+</ol>
+ Frontend:
+<p>In terminal run 'cd fiszki_frontend_react, then run those commands:</p>
+ 
+ <ol>
+<li>'npm install'</li>
+<li>'npm install --save-dev @svgr/webpack'</li>
+<li>'npm install react-router-dom'</li>
+<li>'npm start'</li>
+
 <li>If there is nothing or errors displaying in browser after npm start, go to fiszki_frontend_react/src/routes/index.js go to line 22, press alt+enter and click on 'Change JavaScript language version to flow' then restart 'FlashcardApplication'</li>
 </ol>
 
