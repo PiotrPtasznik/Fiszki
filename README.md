@@ -98,7 +98,7 @@ In terminal run those commands:
 [github-shield]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [github-url-pp]: https://github.com/PiotrPtasznik
 [postman-shield]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white  
-[postman-url]:  https://www.postman.com/grey-escape-417892/workspace/fluere/collection/26441753-0b973e4a-1882-457d-9497-5dab2a271168?action=share&creator=26441753
+[postman-url]:  https://web.postman.co/workspace/FiszkiWorkspace~ae4c1ec0-42a7-45e0-b922-649cc67d1edb/overview
 [product-screenshot]: images/screenshot.png
 [Maven]: https://img.shields.io/badge/Maven-ECE7ED?style=for-the-badge&logo=apachemaven&logoColor=CB2136
 [Maven-url]: https://maven.apache.org/
