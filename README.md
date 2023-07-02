@@ -58,8 +58,6 @@ Backend:
  
  <ol>
 <li>'npm install'</li>
-<li>'npm install --save-dev @svgr/webpack'</li>
-<li>'npm install react-router-dom'</li>
 <li>'npm start'</li>
 
 <li>If there is nothing or errors displaying in browser after npm start, go to fiszki_frontend_react/src/routes/index.js go to line 22, press alt+enter and click on 'Change JavaScript language version to flow' then restart 'FlashcardApplication'</li>
